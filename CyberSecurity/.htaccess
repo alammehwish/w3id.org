@@ -1,0 +1,6 @@
+Header set Access-Control-Allow-Origin *
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^$ http://stlab.istc.cnr.it/stlab/project/haps/ [R=302,L]
+RewriteRule ^metadata$ https://github.com/StomCarlo/ML-cyber-security-tests/blob/master/IDSMetadata.rdf [R=302,L]
+RewriteRule ^repository$ https://github.com/StomCarlo/ML-cyber-security-tests/ [R=302,L]
